@@ -1,0 +1,124 @@
+/*
+  You can use import statements to include partials:
+
+   @import 'imports/reset.css'; 
+ */
+
+/*
+  Or add your statements here:
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+ *{
+     box-sizing: border-box;
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ body {
+     background-color: #36094A;
+     font-family: 'Abel', sans-serif;
+ }
+ 
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      
+ }
+ 
+ .container {
+     max-width: 1000px;
+     margin: 0 auto;
+ }
+ 
+ nav ul {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ #navbar {
+      padding: 1rem 0;
+     }
+ 
+ #navbar ul li a,
+ #main-nav ul li a {
+     color: #DDD;
+     padding: 0.5rem;
+ }
+ 
+ #navbar ul li a:hover,
+ #main-nav ul li a:hover
+  {
+     color: #fe6367;
+ }
+ 
+ 
+ .overlay {
+     min-height: 70vh;
+     position: relative;
+ }
+
+.shrimp_overlay {
+  background: url("/img/shrimp.jpg") no-repeat center center/cover;
+}
+
+.espacio_overlay {
+  background: url("/img/espacio.jpg") no-repeat center center/cover;
+}
+
+.galeria_overlay {
+  background: url("/img/galeria.jpg") no-repeat center center/cover;
+}
+
+.standout {
+  min-height: 50vh;
+}
+ 
+ .purple-overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     min-height: 50px;
+     background-color: rgba(54,9,74, .75);
+   }
+ 
+ #navbar ul li, 
+ #main-nav ul li{
+     text-transform: uppercase;
+ }
+ .social {
+     padding: 5px;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ footer {
+     color:white;
+ }
+
+ .content {
+   padding: 2rem 2rem;
+   background-color: #DDD;
+ }
+
+ .content ul {
+  list-style: none;
+  margin-left: 3rem;
+ }
+
+ .brush {
+  font-family: 'Alex Brush', cursive;
+  font-size: 5rem;
+  font-weight: 700;
+ }
+
+ #gallery {
+   max-height: 25vh;
+ }

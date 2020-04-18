@@ -1,0 +1,21 @@
+{{- $count:=0 -}}
+<div class="row">
+
+
+
+{{ range .Params.fotos }}
+  {{ $count = add $count 1}}         
+  <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+
+  <!-- <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+  data-image="{{.}}"
+  data-target="#image-gallery"> -->
+   <img class="img-thumbnail"
+        src="{{.}}"
+        alt="Image">
+<!-- </a> -->
+</div>
+{{ end }}  
+
+
+</div>
