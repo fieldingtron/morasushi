@@ -122,3 +122,7 @@
  #gallery {
    max-height: 25vh;
  }
+
+ .instagram_feed {
+  overflow: hidden;
+}
