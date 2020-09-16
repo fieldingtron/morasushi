@@ -69,9 +69,9 @@
 .espacio_overlay {
   background: url("/img/espacio.jpg") no-repeat center center/cover;
 }
-
 .galeria_overlay {
   background: url("/img/galeria.jpg") no-repeat center center/cover;
+  min-height: 55px;
 }
 
 .standout {
