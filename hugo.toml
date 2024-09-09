@@ -1,5 +1,4 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://morasushibar.cl/'
+languageCode = 'es-cl'
 title = "Mora Sushi Bar Pucon Chile"
-
 theme="MORA"
